@@ -211,9 +211,9 @@ body{
     padding: 10px;
     margin: 0 10px 10px 0;
 }
-.card__stack p:last-child{
-    margin-right: 0;
-}
+//.card__stack p:last-child{
+//   margin-right: 0;
+//}
 .link{
     font-weight: 400;
     font-size: 20px;
