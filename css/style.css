@@ -5,6 +5,12 @@ body{
     background: black;
     padding: 60px 10% 20px;
 }
+.container__padding{
+padding: 0px 10% 20px;
+}
+.container__padding_ten{
+padding: 20px 10% 40px;
+}
 .black__bg{
     background: #000;
 }
@@ -28,7 +34,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px;
+    padding: 0 40px;
     background: white;
     border-radius: 50px;
 }
@@ -136,7 +142,7 @@ body{
 
 .project {
     background: #000;
-    padding: 0 0 40px 0;
+    padding: 0 0 0 0;
 }
 .project__title {
     color: #FFF;
@@ -280,4 +286,9 @@ body{
     height: 50px;
     margin: 0 auto;
     max-width: 1200px;
+}
+.footer__fixed{
+position: fixed;
+    bottom: 0;
+    width: 100%;
 }
